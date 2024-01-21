@@ -18,9 +18,9 @@ include = [
 ]
 
 [dependencies]
-egui = "0.21.0"
-egui-miniquad = "0.14.0"
-macroquad = { version="0.3.25", default-features=false }
+egui = "0.25.0"
+egui-miniquad = { git = "https://github.com/Lynnesbian/egui-miniquad/", branch = "miniquad_0.4" }
+macroquad = { version="0.4", default-features=false }
 
 [features]
 default = ["audio"]
