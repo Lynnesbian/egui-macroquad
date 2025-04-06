@@ -18,8 +18,8 @@ include = [
 ]
 
 [dependencies]
-egui = "0.28.0"
-egui-miniquad = { git = "https://github.com/not-fl3/egui-miniquad/", tag="0.15.0" }
+egui = "0.30.0"
+egui-miniquad = { git = "https://github.com/not-fl3/egui-miniquad/", rev = "refs/pull/78/head" }
 macroquad = { version="0.4.4", default-features=false }
 
 [features]
@@ -27,7 +27,7 @@ default = ["audio"]
 audio = ["macroquad/audio"]
 
 [dev-dependencies]
-egui_demo_lib = "0.28.0"
+egui_demo_lib = "0.30.0"
 
 [profile.release]
 opt-level = 2
